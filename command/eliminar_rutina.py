@@ -1,11 +1,11 @@
 from command.command import Command
 
 
-class ActualizarRutinaCommand(Command):
+class EliminarRutinaCommand(Command):
 
     def ejecutar(self) -> str:
 
         return (
-            "Rutina fitness actualizada "
+            "Rutina fitness eliminada "
             "correctamente."
         )
